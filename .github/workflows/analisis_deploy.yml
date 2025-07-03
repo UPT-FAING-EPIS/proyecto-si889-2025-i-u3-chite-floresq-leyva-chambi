@@ -1,9 +1,7 @@
 name: Unified Analysis and Publish
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
 
 jobs:
   analysis:
